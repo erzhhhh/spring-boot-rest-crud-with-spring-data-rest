@@ -59,7 +59,7 @@ Why does this matter?
 ## 📖 API Usage Examples
 
 1. API Discovery (Root)
-Perform a GET request to the root. The API introduces itself. GET http://localhost:8080/
+Perform a GET request to the root. The API introduces itself. GET http://localhost:8080/magic-api/
 
 ```json
 {
