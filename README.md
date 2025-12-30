@@ -60,7 +60,9 @@ Why does this matter?
 
 ### 1. API Discovery (Root)
 
-Perform a GET request to the root. The API introduces itself. GET http://localhost:8080/magic-api/
+Perform a GET request to the root. The API introduces itself. 
+
+*GET http://localhost:8080/magic-api/*
 
 ```json
 {
@@ -79,14 +81,14 @@ Perform a GET request to the root. The API introduces itself. GET http://localho
 
 ### 2. Get All Resources (with Pagination)
 
-GET http://localhost:8080/magic-api/employees
+*GET http://localhost:8080/magic-api/employees*
 
 Notice the _links section containing first, next, last, and self for easy navigation.
 
 
 ### 3. Create a Resource
 
-POST http://localhost:8080/magic-api/employees
+*POST http://localhost:8080/magic-api/employees*
 
 ```json
 {
@@ -99,7 +101,7 @@ POST http://localhost:8080/magic-api/employees
 
 ### 4. Update a Resource
 
-PUT http://localhost:8080/magic-api/employees/1
+*PUT http://localhost:8080/magic-api/employees/1*
 
 ```json
 {
@@ -111,7 +113,7 @@ PUT http://localhost:8080/magic-api/employees/1
 
 ### 5. Delete a Resource
 
-DELETE http://localhost:8080/magic-api/employees/1
+*DELETE http://localhost:8080/magic-api/employees/1*
 
 
 
