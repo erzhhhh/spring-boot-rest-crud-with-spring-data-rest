@@ -6,6 +6,7 @@ The key focus of this repository is the implementation of HATEOAS (Hypermedia as
 
 ---
 
+
 ## 🚀 Key Features
 
   - Zero Boilerplate: No manual RestController or Service classes required for standard CRUD.
@@ -14,6 +15,7 @@ The key focus of this repository is the implementation of HATEOAS (Hypermedia as
   - Full CRUD: Create, Read, Update, and Delete operations out of the box.  
 
 ---
+
 
 ## 🧠 What is HATEOAS in this Project?
 
@@ -54,6 +56,8 @@ Why does this matter?
   - Discoverability: You can hit the root URL (/), and the API will tell you all available resources.
   - Evolution: You can change URL structures on the backend without breaking clients, as long as the relationship names (rel) remain the same.
 
+---
+
 
 ## 🛠 Tech Stack
 
@@ -62,6 +66,18 @@ Why does this matter?
   - Spring Data JPA (Hibernate)
   - Spring Data REST (The core engine for HATEOAS)
   - MySQL Database
+
+---
+
+
+## ▶️ Running the project
+
+```json
+./mvnw spring-boot:run
+```
+
+---
+
 
 
 ## 📖 API Usage Examples
