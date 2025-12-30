@@ -57,7 +57,7 @@ Why does this matter?
 
 ## 🛠 Tech Stack
 
-  - Java (JDK 17+)
+  - Java (JDK 21)
   - Spring Boot
   - Spring Data JPA (Hibernate)
   - Spring Data REST (The core engine for HATEOAS)
