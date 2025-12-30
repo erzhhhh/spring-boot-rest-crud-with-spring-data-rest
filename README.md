@@ -55,6 +55,14 @@ Why does this matter?
   - Evolution: You can change URL structures on the backend without breaking clients, as long as the relationship names (rel) remain the same.
 
 
+## 🛠 Tech Stack
+
+  - Java (JDK 17+)
+  - Spring Boot
+  - Spring Data JPA (Hibernate)
+  - Spring Data REST (The core engine for HATEOAS)
+  - MySQL Database
+
 
 ## 📖 API Usage Examples
 
