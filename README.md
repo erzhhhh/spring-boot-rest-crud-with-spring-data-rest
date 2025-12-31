@@ -74,7 +74,6 @@ Why does this matter?
 ./mvnw spring-boot:run
 ```
 
----
 
 
 
@@ -105,7 +104,6 @@ Perform a GET request to the root. The API introduces itself.
 
 *GET http://localhost:8080/magic-api/employees*
 
-Notice the _links section containing first, next, last, and self for easy navigation.
 
 
 ### 3. Create a Resource
