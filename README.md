@@ -4,7 +4,6 @@ This project demonstrates how to build a fully functional, production-grade REST
 
 The key focus of this repository is the implementation of HATEOAS (Hypermedia as the Engine of Application State). Instead of manually writing Controllers and Services, this project leverages Spring Data REST to automatically expose JPA Repositories as REST resources, strictly following the HAL (Hypertext Application Language) format.
 
----
 
 
 ## 🚀 Key Features
@@ -14,7 +13,7 @@ The key focus of this repository is the implementation of HATEOAS (Hypermedia as
   - HAL JSON Format: Responses strictly follow the HAL standard.
   - Full CRUD: Create, Read, Update, and Delete operations out of the box.  
 
----
+
 
 
 ## 🧠 What is HATEOAS in this Project?
@@ -56,7 +55,6 @@ Why does this matter?
   - Discoverability: You can hit the root URL (/), and the API will tell you all available resources.
   - Evolution: You can change URL structures on the backend without breaking clients, as long as the relationship names (rel) remain the same.
 
----
 
 
 ## 🛠 Tech Stack
@@ -67,7 +65,7 @@ Why does this matter?
   - Spring Data REST (The core engine for HATEOAS)
   - MySQL Database
 
----
+
 
 
 ## ▶️ Running the project
